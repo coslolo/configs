@@ -60,7 +60,6 @@ tmap <c-left> <c-w>>
 tmap <c-right> <c-w><
 nmap Q <nop>
 nmap K <nop>
-inoremap /* /*  */<left><left><left>
 nnoremap <c-d> <c-d>zz
 nnoremap <c-u> <c-u>zz
 nnoremap <silent> <leader>cc :set colorcolumn=80<cr>
@@ -71,3 +70,4 @@ nnoremap <silent> <leader>ncc :set colorcolumn-=80<cr>
 " inoremap ( ()<left>
 " inoremap [ []<left>
 " inoremap { {}<left>
+" inoremap /* /*  */<left><left><left>
