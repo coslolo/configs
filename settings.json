@@ -1,0 +1,69 @@
+{
+	"extensions.ignoreRecommendations": true,
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false,
+	"editor.tabCompletion": "off",
+	"editor.minimap.enabled": false,
+	"editor.scrollbar.vertical": "hidden",
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.overviewRulerBorder": false,
+	"editor.hideCursorInOverviewRuler": false,
+	"editor.cursorBlinking": "solid",
+	"editor.formatOnSave": false,
+	"editor.guides.indentation": true,
+	"editor.glyphMargin": true,
+	"editor.lineNumbers": "on",
+	"editor.cursorSurroundingLines": 10,
+	"editor.rulers": [
+		80
+	],
+	"editor.fontFamily": "JetBrainsMonoNL Nerd Font, Consolas, 'Courier New', monospace",
+	"editor.fontSize": 16,
+	"terminal.integrated.fontSize": 16,
+	"terminal.integrated.defaultProfile.linux": "bash",
+	"files.trimTrailingWhitespace": true,
+	"files.insertFinalNewline": true,
+	"files.autoSave": "off",
+	"vim.insertModeKeyBindings": [
+		{
+			"before": [
+				"j",
+				"k"
+			],
+			"after": [
+				"<Esc>"
+			]
+		}
+	],
+	"vim.normalModeKeyBindingsNonRecursive": [
+		{
+			"before": [
+				"u"
+			],
+			"after": [],
+			"commands": [
+				{
+					"command": "undo",
+					"args": []
+				}
+			]
+		}
+	],
+	"vim.handleKeys": {
+		"<C-b>": false,
+		"<C-f>": false,
+		"<C-p>": false,
+		"<C-k>": false,
+		"<C-r>": false
+	},
+	"vim.timeout": 100,
+	"vim.smartRelativeLine": false,
+	"vim.highlightedyank.enable": true,
+	"vim.leader": "<space>",
+	"vim.incsearch": true,
+	"vim.useSystemClipboard": false,
+	"vim.hlsearch": true,
+	"workbench.sideBar.location": "left",
+	"workbench.activityBar.location": "default",
+	"workbench.statusBar.visible": true
+}
